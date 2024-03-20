@@ -16,6 +16,9 @@ import { MainPageComponent } from './main-page/main-page.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    MainPageComponent
   ]
 })
 export class GifsModule { }

@@ -1,1 +1,15 @@
-<p>gif-grid works!</p>
+<div class="grid-card">
+  <div
+    *ngFor="let gif of gifs"
+    class="card"
+  >
+    <img
+      [src]="gif.images.downsized.url"
+      [alt]="gif.title"
+      class="image"
+    >
+    <span class="title">
+      {{gif.title}}
+    </span>
+  </div>
+</div>

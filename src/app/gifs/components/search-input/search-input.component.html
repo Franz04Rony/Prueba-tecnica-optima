@@ -1,1 +1,8 @@
-<p>search-input works!</p>
+<label for="gifs" class="input-label">Buscar:</label>
+<input type="text"
+  id="gifs"
+  class="input"
+  placeholder="Buscar gifs"
+  (keyup.enter)="search()"
+  #searchInput
+>

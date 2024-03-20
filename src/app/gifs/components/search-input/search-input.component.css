@@ -1,0 +1,9 @@
+.input{
+  width: 100%;
+  height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.input-label{
+  font-weight: bold;
+}

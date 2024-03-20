@@ -1,1 +1,12 @@
-<p>gif-record works!</p>
+<aside class="side-bar">
+  <h1 class="title">GifsApp</h1>
+  <ul class="list">
+    <button
+      *ngFor="let item of records"
+      (click)="search(item)"
+      class="item"
+    >
+      {{item}}
+    </button>
+  </ul>
+</aside>
